@@ -1,0 +1,7 @@
+Boruta package, varSelRF
+
+Just for sanity, I would do:
+train, test = train_test_split(train, test_size=0.10, random_state=1974, stratify=train['group'].values)
+
+Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    8.00   13.00   13.07   19.00   23.00 
